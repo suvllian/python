@@ -17,7 +17,7 @@
 ### lessons :sheep:
 * [基础课程](./basic/README.md)
 
-### practice :computer:
+### practice :hammer:
 * 爬虫
   * [豆瓣纸书列表](https://github.com/suvllian/learning/tree/master/Python/simple-spider)
   * [根据输入查询豆瓣书籍列表](https://github.com/suvllian/learning/tree/master/Python/douban-book-spider)
