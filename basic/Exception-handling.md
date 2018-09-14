@@ -21,6 +21,8 @@ Traceback (most recent call last):
 Exception: something error
 ```
 
+如果异常在函数内引发而不被处理，他就会传到函数调用的地方，如果函数调用处也没处理异常，异常会继续向外传，直到主程序。如果主程序也没处理异常，程序会带着栈跟踪中止。
+
 ### 自定义异常类
 要确保新的类从Exception类继承（也可以从内建异常类继承）。
 
@@ -83,4 +85,20 @@ while True:
         print 'Invalid input, please try again.'
     else:
         break
+```
+
+#### Finally
+finally子句一定会执行，无论try语句中是否发生错误。
+``` python
+while True:
+    try:
+        x = input('enter the first number:')
+        y = input('enter the second number:')
+        print x / y
+    except (SyntaxError, ZeroDivisionError, TypeError), e:
+        print 'Invalid input, please try again.'
+    else:
+        break
+    finally:
+        print 'cleaning up'
 ```
