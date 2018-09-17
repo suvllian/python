@@ -112,7 +112,7 @@ today is Wednesday
 today is Wednesday
 ```
 
-#### 模版字符串
+#### 7.模版字符串
 ``` python 
 # -*- coding: utf-8 -*-
 
@@ -167,14 +167,14 @@ print ' '.join(['I', 'am', 'Demon'])
 ```
 
 #### lower()
-返回字符串的小写形式
+返回字符串的小写形式
 ``` python
 print 'TEST'.lower()
 # test
 ```
 
 #### upper()
-返回字符串的大写形式
+返回字符串的大写形式
 ``` python
 print 'test'.upper()
 # TEST
