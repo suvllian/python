@@ -111,3 +111,102 @@ today is Wednesday
 >>> print string.format('Wednesday', 'today', 'is')
 today is Wednesday
 ```
+
+#### 模版字符串
+``` python 
+# -*- coding: utf-8 -*-
+
+from string import Template
+
+str1 = Template('$x, I am Demon')
+print str1.substitute(x='Caroline')
+
+# 替换单词的一部分，必须用括号括起来
+str2 = Template('Today is Mon${day}')
+print str2.substitute(day='day')
+
+# 使用$$插入美元符号
+str3 = Template('$$ is a good $x')
+print str3.substitute(x='thing')
+
+# 可以使用字典提供值/名称对
+str4 = Template('$x is very $y')
+argv = {}
+argv['x'] = 'learning'
+argv['y'] = 'interesting'
+print str4.substitute(argv)
+```
+
+### 三、字符串方法
+#### find(sub_string, start_position, end_position)
+可以在字符串中寻找子串，返回子串所在位置的最左端索引，没找到就返回-1
+``` python
+str = 'I am Demon'
+print str.find('Demon')
+# 5
+print str.find('Demon', 1, 4)
+# -1
+print str.find('test')
+# -1
+```
+
+#### split(sign)
+根据分隔符讲字符串分割成序列
+``` python
+print 'abcde'.split()
+# ['abcde']
+print 'a b c d e'.split()
+# ['a', 'b', 'c', 'd', 'e']
+```
+
+#### join(list)
+需要被连接的序列元素必须是字符串
+``` python
+print ' '.join(['I', 'am', 'Demon'])
+# I am Demon
+```
+
+#### lower()
+返回字符串的小写形式
+``` python
+print 'TEST'.lower()
+# test
+```
+
+#### upper()
+返回字符串的大写形式
+``` python
+print 'test'.upper()
+# TEST
+```
+
+#### replace()
+返回字符串所有匹配项被替换后的字符串
+``` python
+print 'This is a test'.replace('is', 'not')
+# Thnot not a test
+```
+
+#### strip(sign)
+去除两侧的空格字符串，可以指定去除的符号，但是只会取出字符串两侧的，字符串中间包含的字符不会删除。
+``` python
+print '    abc   '.strip()
+# abc
+print ' *   !!! ****  a  *  bc  *****    !!!!'.strip(' *!')
+# a  *  bc
+```
+
+#### title()
+返回字符串的首字母大写形式
+``` python
+print 'test'.title()
+# Test
+```
+
+#### isupper、islower、istitle
+``` python 
+print 'aB'.isupper() # False
+print 'a'.isupper() # Flase
+print 'aB'.islower() # False
+print 'Alibaba'.istitle() # True
+```
