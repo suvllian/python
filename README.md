@@ -23,6 +23,6 @@
   * [根据输入查询豆瓣书籍列表](https://github.com/suvllian/learning/tree/master/Python/douban-book-spider)
   * [简单图片爬取(urllib)](https://github.com/suvllian/learning/tree/master/Python/simple-download-images)
 
-### library document :art:
+### library documentation :art:
 * [urllib](https://docs.python.org/3/library/urllib.html)
 
