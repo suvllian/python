@@ -155,11 +155,11 @@ print s.filter(['SPAM', 'SPAM', 'test'])
 #### 检查继承
 `issubclass `可以检查一个类是否是另一个类的子类。  
 `__bases__ `属性可以获取已知类的基类。  
-`isinstance `可以判断某个对象是否是一个类的实例。
-`__class__`可以获取对象属于哪个类。
-`hasattr`可以判断对象中是否存在某个方法或者属性。
-`setattr `可以设置对象中的属性。
-`__dict__`可以查看对象中所有存储的值。
+`isinstance `可以判断某个对象是否是一个类的实例。  
+`__class__`可以获取对象属于哪个类。  
+`hasattr`可以判断对象中是否存在某个方法或者属性。  
+`setattr `可以设置对象中的属性。  
+`__dict__`可以查看对象中所有存储的值。  
 
 ``` python
 print issubclass(SPAMFilter, Filter)
