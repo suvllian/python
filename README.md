@@ -1,8 +1,4 @@
-# Python Documents :snake:
-
-## 新手入门 :ghost:
-一门编程语言的入门，主要是掌握基本语法和熟悉编程规范，能够读懂并编写简单的代码。  
-大多数编程语言的基本语法和编程规范是相似的，一般都包括：变量、数据类型、函数、语句（条件语句、循环语句）等基础知识。
+## Python Documents :snake:
 
 ### 入门资源 :book:
 * <a href="https://docs.python.org/3/tutorial/index.html" target="_blank"><<Python官方文档>></a>
@@ -15,10 +11,15 @@
 * <a href="http://www.dooccn.com/python/" target="_blank">Dooccn工具</a>
 * <a href="http://run.jser.com/python.html" target="_blank">jser在线编译运行</a>
 
-### lessons :sheep:
-* [基础课程](./basic/README.md)
+### 基础课程 :sheep:
+* [Python简介](./basic/Introduction.md)
+* [字符串](./basic/String.md)
+* [异常处理](./basic/Exception-handling.md)
+* [抽象(函数)](./basic/Function.md)
+* [类](./basic/Class.md)
+* [魔术方法](./basic/Magic-method.md)
 
-### practice :hammer:
+### 简单练习 :hammer:
 * 爬虫
   * [豆瓣纸书列表](https://github.com/suvllian/learning/tree/master/Python/simple-spider)
   * [根据输入查询豆瓣书籍列表](https://github.com/suvllian/learning/tree/master/Python/douban-book-spider)
