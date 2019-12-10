@@ -11,6 +11,9 @@
 * <a href="http://www.dooccn.com/python/" target="_blank">Dooccn工具</a>
 * <a href="http://run.jser.com/python.html" target="_blank">jser在线编译运行</a>
 
+### 开发工具 :movie_camera:
+* [Pycharm CE](./dev-tools/pycharm.md)
+
 ### 基础课程 :sheep:
 * [Python简介](./basic/Introduction.md)
 * [字符串](./basic/String.md)
