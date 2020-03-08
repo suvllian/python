@@ -15,12 +15,12 @@
 * [Pycharm CE](./dev-tools/pycharm.md)
 
 ### 基础课程 :sheep:
-* [Python简介](./basic/Introduction.md)
-* [字符串](./basic/String.md)
-* [异常处理](./basic/Exception-handling.md)
-* [抽象(函数)](./basic/Function.md)
-* [类](./basic/Class.md)
-* [魔术方法](./basic/Magic-method.md)
+* [Python简介](./basic/basic-introduction.md)
+* [字符串](./basic/string.md)
+* [异常处理](./basic/exception-handling.md)
+* [抽象(函数)](./basic/function.md)
+* [类](./basic/class.md)
+* [魔术方法](./basic/magic-method.md)
 
 ### 简单练习 :hammer:
 * 爬虫
@@ -30,4 +30,6 @@
 
 ### library documentation :art:
 * [urllib](https://docs.python.org/3/library/urllib.html)
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html#)： 解析html结构
+* [requests](https://requests.readthedocs.io/zh_CN/latest/)： 发送http请求
 

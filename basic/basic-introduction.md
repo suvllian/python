@@ -129,6 +129,20 @@ final = twoSum([2, 11, 15, 7], 9)
 print(final)
 ```
 
+#### 1.8 三元表达式
+
+``` python
+a = 1
+b = 2
+value = a if a > b else b
+```
+
+等价于其他语言中的
+
+``` javascript
+value = a > b ? a: b
+```
+
 # 二、函数
 
 ### 2.1 函数调用
